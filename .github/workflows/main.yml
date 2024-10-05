@@ -17,6 +17,6 @@ jobs:
         node-version: '14'
     - run: npm install
     - run: npm test
-    with:
-  node-version: '14'  # Change '14' to the version you need
+    - run: npm install
+
 
